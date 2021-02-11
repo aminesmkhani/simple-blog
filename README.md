@@ -5,7 +5,7 @@ This repo simple blog template
 ## English README 😊
 ## Sample Page 👇
                                                     Index Header
-![Main Page](https://uupload.ir/files/o06m_1.png)
+![Main Page](https://uupload.ir/files/hxg_1.png)
 
                                                     Article Content & List
 ![Content](https://uupload.ir/files/vj1w_2.png)
@@ -36,7 +36,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## نمونه صفحات 👇
 
                                                     هدر صفحه اصلی
-![Main Page](https://uupload.ir/files/o06m_1.png)
+![Main Page](https://uupload.ir/files/hxg_1.png)
 
                                                     محتوا و لیست مقالات
 ![Content](https://uupload.ir/files/vj1w_2.png)
