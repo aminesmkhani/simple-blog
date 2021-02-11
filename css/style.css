@@ -1,0 +1,304 @@
+/* Creator Amin  Esmkhani*/
+@font-face{
+    font-family:'Yekan';
+    src:url('../fonts/yekan.woff');
+    font-weight:normal;
+    font-style:normal;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: none;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: blue;
+    text-decoration: none;
+}
+body{
+    font-family: 'Yekan', 'tahoma',"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p {
+    line-height: 1.75;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+header {
+    background-image: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: right;
+    color: white;
+}
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+.comment{
+    padding: 50px;
+}
+@media (min-width: 768px) {
+    header  .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+    header .inner-header .intro-text{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+     }
+    header .intro-text .intro-lead-in {
+        font-style: italic;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    header .inner-header .intro-text .intro-heading
+    {
+        font-size: 25px;
+        line-height: 75px;
+        margin-bottom: 20px;
+        margin-top: 60px;
+    }
+    header .intro-text .intro-heading {
+        font-size: 60px;
+        line-height: 75px;
+        margin-bottom: 50px;
+    }
+}
+section {
+    padding: 50px 0;
+}
+@media (min-width: 768px) {
+    section {
+        padding: 20px 0;
+    }
+}
+section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+section h3.section-subheading {
+    margin-bottom: 35px;
+}
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+.bg-light-gray {
+    background-color: #eeeeee;
+}
+.bg-darkest-gray {
+    background-color: #222222;
+}
+section#portfolio .portfolio-item {
+    margin: 0 0 15px;
+    right: 0;
+}
+.blog-detail{
+    float: left;
+    margin: 20px;
+}
+.userComment{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 25px;
+    float: right;
+}
+.comments{
+    border-bottom:solid 1px gray;
+    margin-bottom: 15px; 
+}
+@media (min-width:768px) {
+    section#portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+section#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+section#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(254,209,54,.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+section#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+section#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: white;
+}
+section#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+section#portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+}
+section#portfolio .portfolio-item .portfolio-caption h4 {
+    text-transform: none;
+    margin-top: 10px;
+}
+section#portfolio .portfolio-item .portfolio-caption p {
+    font-size: 14px;
+    margin: 0;
+}
+section#portfolio .portfolio-item .portfolio-caption p.demo {
+    font-size: 13px;
+    margin: 0;
+    text-align: right;
+}
+section#portfolio .portfolio-item .portfolio-caption p span {
+    margin-left: 15px;
+}
+
+/*Team Member*/
+#team h2 {
+    color: floralwhite;
+}
+.team-member{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid white;
+}
+
+#team h2 {
+    color: floralwhite;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+    color: aqua;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+ul.social-buttons li a {
+    display: block;
+    background-color: #222222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136;
+}
+p.large {
+    font-size: 16px;
+}
+
+aside.clients img {
+    margin: 50px auto;
+}
+
+section#contact {
+    background-color: #222;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section#contact .section-heading {
+    color: white;
+}
+section#contact .section-subheading {
+    color: #e4f19e;
+}
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+section#contact textarea {
+    resize: vertical;
+    min-height: 250px;
+    max-height: 350px;
+}
+input[type=text],input[type=tel],input[type=email],textarea {
+    direction: rtl;
+    text-align: right;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: none;
+}
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+footer ul.quicklinks {
+    line-height: 40px;
+}
+footer span.copyright {
+    line-height: 40px;
+    font-family: "Montserrat", "Helvetica",sans-serif;
+}
+
+/*.form-control {
+    border-radius: 0;
+}*/
+
+.bs-example{
+    margin-bottom: 20px !important;
+}
