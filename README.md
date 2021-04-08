@@ -27,7 +27,7 @@ Use Free for all project :)
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-<br
+<br>
 
 ## Persian README 😊
 
@@ -51,7 +51,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ![Blog Detail](https://uupload.ir/files/s126_5.png)
 
 ## به توسعه این قالب کمک کنید
-درخواست های خود رو برای  پروژه بدید ویه شاخهدرست کنید و هر تغییری رو که میخواهید داخل قالب بدید
+درخواست های خود رو برای  پروژه بدید ویه شاخه درست کنید و هر تغییری رو که میخواهید داخل قالب بدید
 
 
 :))))
